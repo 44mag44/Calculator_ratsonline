@@ -1,2 +1,2 @@
 all:
-	g++ -g -Wall main.cpp logic.h crossing.cpp crossing.h skills.cpp skills.h -o calcrats
+	g++ -g -Wall -o calcrats main.cpp logic.h crossing.cpp crossing.h skills.cpp skills.h points.cpp points.h
